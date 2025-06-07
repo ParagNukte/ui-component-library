@@ -17,6 +17,7 @@ This UI components library is **actively being built** and **improved on the go*
 
 - 🛠 **New components** are being added continuously.
 - **Existing components** are to be redeveloped as needed, and additional customizations are required for the user.
+- **Existing readme doc** is also a part of the process, where it will be updated every time with an updated version.
 - 🔧 **Optimizations** and feature enhancements will come over time.  
 - 📅 **Roadmap updates** will be shared in upcoming releases.  
 
@@ -57,9 +58,36 @@ npm install react react-dom
 ```
 
 Now you can start using the components inside your project! 🚀  
+
+
+### Basic Usage with Primary Variant
+
+To use the **`Button`** component with its default primary styling, you can simply import it and include it in your JSX.
+
+```jsx
+import React from 'react';
+import { Button } from 'reui'; // Adjust the import path to your library
+
+const App = () => {
+  const handleClick = () => {
+    // Handle button click logic here
+    console.log("Primary button clicked!");
+  };
+
+  return (
+    <div className="p-4">
+      <Button onClick={handleClick}>
+        Get Started
+      </Button>
+    </div>
+  );
+};
+
+export default App;
+
 ```
 
-This ensures correct formatting with **proper section titles, code blocks, and clear step-by-step instructions**. Let me know if you want any tweaks! 😊
+
 
 
 Feel free to explore, contribute, and suggest improvements! 😊
