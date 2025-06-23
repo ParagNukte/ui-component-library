@@ -29,7 +29,7 @@ You can **test and integrate this UI library** into your own project by followin
 
 ## 1. Clone the Repository
 ```sh
-git clone https://github.com/ParagNukte/ui-component-library
+git clone https://github.com/ParagNukte/reui-component-library
 ```
 
 ### **2. Navigate to the Cloned Repository (reui)**  
@@ -86,7 +86,7 @@ const App = () => {
 export default App;
 
 ```
-
+## NOTE:: If you are using this in the NextJS app, do not forget to use `"use client"` to successfully render the component.
 
 
 
